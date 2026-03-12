@@ -1,0 +1,9 @@
+.idea/
+build/
+cmake-build-*/
+out/
+
+*.exe
+*.obj
+*.pdb
+*.ilk
