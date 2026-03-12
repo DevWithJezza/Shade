@@ -15,4 +15,4 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(glfw)
 
 add_executable(Shade main.c)
-target_link_libraries(Shade PRIVATE glfw)
+target_link_libraries(Shade PRIVATE glfw opengl32)
